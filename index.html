@@ -11,10 +11,121 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
-    
+
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    
+  <body class="raleway">
+    <header class="mx-40">
+      <nav>
+        <div class="navbar">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost font-extrabold text-2xl">Komol Paribahan</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Destination</a></li>
+              <li><a>Search</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a
+              class="btn bg-lime-200 rounded-lg text-lime-600 border-r-lime-500 font-bold"
+              >Bus <img src="images/bus-icon.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </nav>
+      <!-- banner section -->
+      <div
+        class="bground flex flex-col justify-center items-center gap-6 px-48 py-20"
+      >
+        <h2 class="font-extrabold text-4xl text-white text-center">
+          End-to-End Travel with <br /><span class="text-[#1DD100]"
+            >Komol Paribahan</span
+          >
+        </h2>
+        <div class="flex flex-col justify-center items-center">
+          <p class="text-center max-w-[650px] inter text-white">
+            You are always most welcome directly within the app. The integrated
+            testing features allow for a streamlined .
+          </p>
+          <div class="">
+            <button class="btn mt-8 mb-12 font-bold text-xl bg-[#1DD100]">
+              Buy ticket
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- offer section -->
+      <section class="mx-40 my-40 flex flex-col items-center">
+        <h3 class="text-4xl font-bold">Best offers for you</h3>
+        <div class="flex gap-4">
+          <div
+            class="card card-side bg-[#FFBF0F] rounded-3xl shadow-xl mt-10 py-12 px-6 flex items-center justify-between gap-32 inter ">
+          
+            <div class=" flex flex-col justify-center items-center">
+              <h3 class="font-extrabold text-3xl">15% OFF</h3>
+              <p>
+                <span class="font-semibold text-center">on your next purchase</span><br />
+                use by January 2024
+              </p>
+            </div>
+            <div class="font-bold text-2xl flex flex-col justify-center items-center">
+              <h2 class="">NEW15</h2>
+              <p class="font-normal text-sm">Coupon code</p>
+            </div>
+          </div>
+          <div
+          class="card card-side bg-[#F78C9C] rounded-3xl shadow-xl mt-10 py-12 px-6 flex items-center justify-between gap-20 inter ">
+        
+          <div class=" flex flex-col justify-center items-center">
+            <h3 class="font-extrabold text-3xl">20% OFF</h3>
+            <p>
+              <span class="font-semibold">on your next purchase</span><br />
+              use by January 2024
+            </p>
+          </div>
+          <div class="font-bold text-2xl flex flex-col justify-center items-center">
+            <h2 class="">Couple 20
+            </h2>
+            <p class="font-normal text-sm">Coupon code</p>
+          </div>
+        </div>
+        </div>
+        <button class="btn btn-outline mt-10 text-[#1DD100]">See All offer</button>
+      </section>
+    </main>
+    <footer></footer>
   </body>
 </html>
