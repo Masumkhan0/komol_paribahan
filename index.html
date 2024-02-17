@@ -92,38 +92,139 @@
         <h3 class="text-4xl font-bold">Best offers for you</h3>
         <div class="flex gap-4">
           <div
-            class="card card-side bg-[#FFBF0F] rounded-3xl shadow-xl mt-10 py-12 px-6 flex items-center justify-between gap-32 inter ">
-          
-            <div class=" flex flex-col justify-center items-center">
+            class="card card-side bg-[#FFBF0F] rounded-3xl shadow-xl mt-10 py-12 px-6 flex items-center justify-between gap-32 inter"
+          >
+            <div class="flex flex-col justify-center items-center">
               <h3 class="font-extrabold text-3xl">15% OFF</h3>
               <p>
-                <span class="font-semibold text-center">on your next purchase</span><br />
+                <span class="font-semibold text-center"
+                  >on your next purchase</span
+                ><br />
                 use by January 2024
               </p>
             </div>
-            <div class="font-bold text-2xl flex flex-col justify-center items-center">
+            <div
+              class="font-bold text-2xl flex flex-col justify-center items-center"
+            >
               <h2 class="">NEW15</h2>
               <p class="font-normal text-sm">Coupon code</p>
             </div>
           </div>
           <div
-          class="card card-side bg-[#F78C9C] rounded-3xl shadow-xl mt-10 py-12 px-6 flex items-center justify-between gap-20 inter ">
-        
-          <div class=" flex flex-col justify-center items-center">
-            <h3 class="font-extrabold text-3xl">20% OFF</h3>
-            <p>
-              <span class="font-semibold">on your next purchase</span><br />
-              use by January 2024
-            </p>
-          </div>
-          <div class="font-bold text-2xl flex flex-col justify-center items-center">
-            <h2 class="">Couple 20
-            </h2>
-            <p class="font-normal text-sm">Coupon code</p>
+            class="card card-side bg-[#F78C9C] rounded-3xl shadow-xl mt-10 py-12 px-6 flex items-center justify-between gap-20 inter"
+          >
+            <div class="flex flex-col justify-center items-center">
+              <h3 class="font-extrabold text-3xl">20% OFF</h3>
+              <p>
+                <span class="font-semibold">on your next purchase</span><br />
+                use by January 2024
+              </p>
+            </div>
+            <div
+              class="font-bold text-2xl flex flex-col justify-center items-center"
+            >
+              <h2 class="">Couple 20</h2>
+              <p class="font-normal text-sm">Coupon code</p>
+            </div>
           </div>
         </div>
+        <button class="btn btn-outline mt-10 text-[#1DD100]">
+          See All offer
+        </button>
+      </section>
+      <!-- bus info and seat plan section -->
+      <section
+        class="bg-[#F7F8F8] w-full rounded-t-[90px] p-28 border-y-[#1DD100]"
+      >
+        <div class="flex flex-col justify-center items-center">
+          <h2 class="font-bold text-4xl text-[#030712] mb-12">
+            Komol Paribahan
+          </h2>
+          <p class="max-w-[700px] text-center inter text-lg">
+            You are always most welcome directly within the app. The integrated
+            testing features allow for a streamlined .
+          </p>
         </div>
-        <button class="btn btn-outline mt-10 text-[#1DD100]">See All offer</button>
+        <!-- Bus info section -->
+        <div>
+          <div class="card bg-base-100 shadow-xl mt-10">
+            <div class="flex">
+              <div class="card-body p-12 gap-5">
+                <!-- bus heading -->
+                <div class="flex justify-between">
+                  <div class="flex gap-2">
+                    <img src="images/bus-logo.png" alt="" />
+                    <div>
+                      <h2 class="card-title">Komol Paribahan</h2>
+                      <p>Coach-009-WEB ! AC_Business</p>
+                    </div>
+                  </div>
+                  <div class="">
+                    <button
+                      class="flex items-center bg-lime-100 rounded-xl text-[#1DD100] p-2"
+                    >
+                      <img  src="images/seat-green.png" alt="" /> <span id="aseat" class="font-semibold text-lg">40</span>  Seats left
+                    </button>
+                  </div>
+                </div>
+                <!-- bus heading end -->
+
+                <div class="flex justify-between">
+                  <span>Route</span> <span>Dhaka - Sylhet</span>
+                </div>
+                <hr />
+                <div class="flex justify-between">
+                  <span>Departure Time</span> <span>9:33 PM</span>
+                </div>
+                <hr />
+
+                <div class="card-actions justify-center items-center">
+                  <button class="btn">Boarding Point - Laxmipur</button>
+                  <button class="btn">Dropping Point - Bogura</button>
+                  <button class="btn">Est. Time - 11 Hour</button>
+                </div>
+              </div>
+              <div class="flex-grow">
+                <div class="flex flex-col justify-center items-center py-32 ">
+                  <img src="images/fare.png" alt="" />
+                  <h2 class="font-bold text-2xl"><span>550</span> Taka</h2>
+                  <p>per Seat</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Seat plan section start -->
+        <div class="mt-8">
+            <div class="card p-5 bg-base-100 shadow-xl">
+                
+                  <h2 class="font-semibold text-2xl">Select Your Seat</h2>
+                  <hr class="">
+                 <div class="flex justify-between mt-4 mb-4">
+                    <div class="flex gap-2">
+                        <img src="images/seat-gray.png" alt="">
+                        <p>Available</p>
+                    </div>
+                    <div class="flex gap-2">
+                        <img src="images/seat-green-filled.png" alt="">
+                        <p class="font-medium text-lg text-[#1DD100]">Selected</p>
+
+                    </div>
+                 </div> 
+                 <hr>  
+                  <!-- seat button -->
+                  <div>
+                    <img src="" alt="">
+                  </div>
+
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              
+        </div>
+
+
       </section>
     </main>
     <footer></footer>
