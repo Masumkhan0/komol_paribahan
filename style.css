@@ -11,15 +11,12 @@
 .raleway {
   font-family:"Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight:<weight>;
- 
+
 }
 
 .inter {
   font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:<weight>;
-  
+  font-optical-sizing: auto; 
 }
 
 .bground{
@@ -29,6 +26,5 @@
     background-repeat: no-repeat;
     object-fit: cover;
     background-position:center;
-    
-    
+   
 }
