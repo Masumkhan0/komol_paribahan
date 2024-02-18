@@ -8,10 +8,15 @@ const allSeat = document.getElementsByClassName('kbd');
 for (const seat of allSeat) {
 
     seat.addEventListener('click', function(e){
+
+        e.target.parentNode.setAttribute("disabled", true);
         const remainSeat = document.getElementById('aseat');
         const noOfSeat = document.getElementById('seat');
         selectedSeat += 1;
         availableSeat -=1;
+        if(selectedSeat > 4){
+            seat.removeEventListener();
+        }
         remainSeat.innerText = availableSeat;
         const price =document.getElementById('tprice');
         const grandTotalPrice =document.getElementById('gtotal');
