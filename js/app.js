@@ -8,8 +8,8 @@ const allSeat = document.getElementsByClassName('kbd');
 for (const seat of allSeat) {
 
     seat.addEventListener('click', function(e){
-
-        e.target.parentNode.setAttribute("disabled", true);
+        
+        
         const remainSeat = document.getElementById('aseat');
         const noOfSeat = document.getElementById('seat');
         selectedSeat += 1;
@@ -80,17 +80,7 @@ const couponButton = document.getElementById('apply-btn');
         
     })
     
-    // if( text === 'NEW15' || text === 'Couple 20'){
-    //    const couponButton = document.getElementById('apply-btn');
-    //    couponButton.removeAttribute('disabled').addEventListener('click', function (){
-
-    //     console.log('ok');
-    // })
-        
-    // }else{
-    //     couponButton.setAttribute('disabled',true);
-    // }
-
+    
 
 
 
